@@ -1,6 +1,6 @@
 venv/
 __pycache__/
-*.json
+medicines.json
 *.csv
 *.pyc
 .DS_Store
