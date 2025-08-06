@@ -22,13 +22,14 @@ client = typesense.Client({
 })
 
 @app.get("/search")
-def search_medicines(q: str = Query(..., min_length=1)):
+def search_medicines(q: str = Query(..., min_length=1), page: int = 1):
     search_parameters = {
         'q': q,
         'query_by': 'name,short_composition1,short_composition2',
         'sort_by': 'price:asc',
         'num_typos': 2,
-        'per_page': 20
+        'per_page': 20,
+        'page':page
     }
     results = client.collections['medicines'].documents.search(search_parameters)
     hits = results.get("hits", [])
