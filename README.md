@@ -1,5 +1,5 @@
 
-# 💊 Typesense Medicines Search
+# 💊 Medisearch : Typesense Medicines Search
 
 This project is a lightweight, high-performance, fast full-text search engine for medicines using [Typesense](https://typesense.org/). It provides fast and typo-tolerant search capabilities over a dataset of medicines, with support for pagination and easy indexing via JSON files.
 
