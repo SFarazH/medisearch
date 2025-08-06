@@ -1,0 +1,57 @@
+[
+  {
+    "id": "0",
+    "name": "Augmentin 625 Duo Tablet",
+    "price": 223.42,
+    "isDiscontinued": false,
+    "manufacturer_name": "Glaxo SmithKline Pharmaceuticals Ltd",
+    "type": "allopathy",
+    "packSize": "strip of 10 tablets",
+    "short_composition1": "Amoxycillin  (500mg) ",
+    "short_composition2": "  Clavulanic Acid (125mg)"
+  },
+  {
+    "id": "1",
+    "name": "Azithral 500 Tablet",
+    "price": 132.36,
+    "isDiscontinued": false,
+    "manufacturer_name": "Alembic Pharmaceuticals Ltd",
+    "type": "allopathy",
+    "packSize": "strip of 5 tablets",
+    "short_composition1": "Azithromycin (500mg)",
+    "short_composition2": ""
+  },
+  {
+    "id": "2",
+    "name": "Ascoril LS Syrup",
+    "price": 118.0,
+    "isDiscontinued": false,
+    "manufacturer_name": "Glenmark Pharmaceuticals Ltd",
+    "type": "allopathy",
+    "packSize": "bottle of 100 ml Syrup",
+    "short_composition1": "Ambroxol (30mg/5ml) ",
+    "short_composition2": " Levosalbutamol (1mg/5ml) "
+  },
+  {
+    "id": "3",
+    "name": "Allegra 120mg Tablet",
+    "price": 218.81,
+    "isDiscontinued": false,
+    "manufacturer_name": "Sanofi India  Ltd",
+    "type": "allopathy",
+    "packSize": "strip of 10 tablets",
+    "short_composition1": "Fexofenadine (120mg)",
+    "short_composition2": ""
+  },
+  {
+    "id": "4",
+    "name": "Avil 25 Tablet",
+    "price": 10.96,
+    "isDiscontinued": false,
+    "manufacturer_name": "Sanofi India  Ltd",
+    "type": "allopathy",
+    "packSize": "strip of 15 tablets",
+    "short_composition1": "Pheniramine (25mg)",
+    "short_composition2": ""
+  }
+]
