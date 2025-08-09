@@ -84,3 +84,6 @@ http://localhost:5000/search?q=paracetamol&page=1
 Your data is indexed in-memory by Typesense. If you restart the Typesense server, you’ll need to re-run the indexing script (unless using persistent volumes in Docker).
 
 For production, mount a permanent volume or use Typesense Cloud.
+
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](faraz-three.vercel.app)
