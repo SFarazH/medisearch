@@ -1,8 +1,6 @@
-
 # 💊 Medisearch : Typesense Medicines Search
 
 This project is a lightweight, high-performance, fast full-text search engine for medicines using [Typesense](https://typesense.org/). It provides fast and typo-tolerant search capabilities over a dataset of medicines, with support for pagination and easy indexing via JSON files.
-
 
 ## Tech Stack
 
@@ -11,7 +9,6 @@ This project is a lightweight, high-performance, fast full-text search engine fo
 **Typesense** – In-memory search engine
 
 **Uvicorn** – ASGI server to run the app
-
 
 ## Features
 
@@ -30,12 +27,14 @@ This project is a lightweight, high-performance, fast full-text search engine fo
 ```
 
 2. **Install dependencies**
+
 ```
 pip install -r requirements.txt
 ```
 
 3. **Start Typesense Server**
-(Using docker)
+   (Using docker)
+
 ```
 docker run -p 8108:8108 -v/tmp/typesense-data:/data typesense/typesense:0.25.1 \
   --data-dir /data --api-key=xyz --enable-cors
@@ -51,18 +50,21 @@ python indexDocuments.py
 ```
 
 5. **Start Server**
+
 ```
 uvicorn main:app --reload
 ```
 
-Access results at : 
+Access results at :
+
 ```
 http://localhost:5000/search?q=paracetamol&page=1
 ```
 
 **Response:**
+
 ```
-[ 
+[
     {
         "name": "Anglopar 500mg Tablet",
         "manufacturerName": "Anglo-French Drugs & Industries Ltd",
@@ -78,12 +80,10 @@ http://localhost:5000/search?q=paracetamol&page=1
 ]
 ```
 
-    
 ## 📎 Notes
 
 Your data is indexed in-memory by Typesense. If you restart the Typesense server, you’ll need to re-run the indexing script (unless using persistent volumes in Docker).
 
 For production, mount a permanent volume or use Typesense Cloud.
 
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](faraz-three.vercel.app)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://faraz-three.vercel.app)
