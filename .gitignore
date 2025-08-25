@@ -4,3 +4,5 @@ medicines.json
 *.csv
 *.pyc
 .DS_Store
+*.txt
+benchmark.py
