@@ -7,8 +7,8 @@
     "manufacturer_name": "Glaxo SmithKline Pharmaceuticals Ltd",
     "type": "allopathy",
     "packSize": "strip of 10 tablets",
-    "short_composition1": "Amoxycillin  (500mg) ",
-    "short_composition2": "  Clavulanic Acid (125mg)"
+    "shortComposition1": "Amoxycillin  (500mg) ",
+    "shortComposition2": "  Clavulanic Acid (125mg)"
   },
   {
     "id": "1",
@@ -18,8 +18,8 @@
     "manufacturer_name": "Alembic Pharmaceuticals Ltd",
     "type": "allopathy",
     "packSize": "strip of 5 tablets",
-    "short_composition1": "Azithromycin (500mg)",
-    "short_composition2": ""
+    "shortComposition1": "Azithromycin (500mg)",
+    "shortComposition2": ""
   },
   {
     "id": "2",
@@ -29,8 +29,8 @@
     "manufacturer_name": "Glenmark Pharmaceuticals Ltd",
     "type": "allopathy",
     "packSize": "bottle of 100 ml Syrup",
-    "short_composition1": "Ambroxol (30mg/5ml) ",
-    "short_composition2": " Levosalbutamol (1mg/5ml) "
+    "shortComposition1": "Ambroxol (30mg/5ml) ",
+    "shortComposition2": " Levosalbutamol (1mg/5ml) "
   },
   {
     "id": "3",
@@ -40,8 +40,8 @@
     "manufacturer_name": "Sanofi India  Ltd",
     "type": "allopathy",
     "packSize": "strip of 10 tablets",
-    "short_composition1": "Fexofenadine (120mg)",
-    "short_composition2": ""
+    "shortComposition1": "Fexofenadine (120mg)",
+    "shortComposition2": ""
   },
   {
     "id": "4",
@@ -51,7 +51,7 @@
     "manufacturer_name": "Sanofi India  Ltd",
     "type": "allopathy",
     "packSize": "strip of 15 tablets",
-    "short_composition1": "Pheniramine (25mg)",
-    "short_composition2": ""
+    "shortComposition1": "Pheniramine (25mg)",
+    "shortComposition2": ""
   }
 ]
