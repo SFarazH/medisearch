@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 3. **Start Server**
-   (Using docker)
+(Using docker)
 
 #### Typesense
 ```
